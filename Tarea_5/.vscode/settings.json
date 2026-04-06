@@ -1,0 +1,13 @@
+{
+    "activitusbar.views": [
+        {
+            "name": "task.build-production",
+            "codicon": "gear",
+            "tooltip":"Build Project"
+        },
+        {
+            "name": "debug",
+            "codicon": "run-view-icon"
+        }
+    ]
+}

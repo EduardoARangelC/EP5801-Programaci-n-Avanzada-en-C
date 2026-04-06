@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label":"build-production",
+            "type":"shell",
+            "command":"make -f build.mk clean && make -f build.mk",
+            "group":{
+                "kind":"build",
+                "isDefault": true
+            }
+        },
+        {
+            "label":"build-debug",
+            "type":"shell",
+            "command":"make -f debug.mk clean && make -f debug.mk",
+            "group":{
+                "kind":"build",
+                "isDefault": true
+            }
+        }
+    ]
+}
